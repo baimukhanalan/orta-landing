@@ -974,8 +974,8 @@
       if(e.corwrap && this._cdocs){
         var cH=e.corwrap.offsetHeight-vh;
         var cp=cl(-e.corwrap.getBoundingClientRect().top/cH);
-        var camZc=cl(cp/0.58)*2600;
-        var conv=cl((cp-0.6)/0.3), cv=smooth(conv);
+        var camZc=cl(cp/0.42)*2600;
+        var conv=cl((cp-0.4)/0.32), cv=smooth(conv);
         var nC=this._cn, spacing=Math.min(190,vw*0.15);
         this._cdocs.forEach(function(d){
           var slotX,slotY;
@@ -992,8 +992,8 @@
           d.el.style.filter=bl>0.4?'blur('+bl.toFixed(1)+'px)':'none';
         });
         if(e.cortl) e.cortl.style.opacity=cv.toFixed(2);
-        if(e.cortlfill) e.cortlfill.style.transform='scaleX('+cl((cp-0.66)/0.28).toFixed(3)+')';
-        if(e.corcap) e.corcap.style.opacity=cp>0.9?'1':'0';
+        if(e.cortlfill) e.cortlfill.style.transform='scaleX('+cl((cp-0.5)/0.24).toFixed(3)+')';
+        if(e.corcap) e.corcap.style.opacity=cp>0.74?'1':'0';
       }
 
       // DAY / ROADMAP fill
