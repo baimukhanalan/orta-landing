@@ -144,16 +144,16 @@
         </g>
       </svg>
       <!-- floating parallax shapes -->
-      <div data-hp="0.34" style="position:absolute;left:11%;top:24%;font-size:40px;animation:floatY 7s ease-in-out infinite alternate;">🧪</div>
-      <div data-hp="0.5" style="position:absolute;right:12%;top:30%;font-size:44px;animation:floatY 8s ease-in-out .6s infinite alternate;">🧬</div>
-      <div data-hp="0.22" style="position:absolute;left:17%;bottom:24%;font-size:36px;animation:floatY 6s ease-in-out .3s infinite alternate;">📐</div>
-      <div data-hp="0.42" style="position:absolute;right:16%;bottom:22%;font-size:38px;animation:floatY 9s ease-in-out .9s infinite alternate;">🪐</div>
-      <div data-hp="0.6" style="position:absolute;left:44%;top:14%;width:46px;height:46px;border:2px solid var(--teal);border-radius:12px;opacity:.4;animation:spin 26s linear infinite;"></div>
+      <div data-hp="0.34" style="position:absolute;left:11%;top:24%;animation:floatY 7s ease-in-out infinite alternate;"><span class="hero-badge" style="color:var(--teal);"><svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M9.5 3h5M10.5 3v6L5.7 16.8A2 2 0 0 0 7.4 20h9.2a2 2 0 0 0 1.7-3.2L13.5 9V3"/><path d="M8 14.5h8"/></svg></span></div>
+      <div data-hp="0.5" style="position:absolute;right:12%;top:30%;animation:floatY 8s ease-in-out .6s infinite alternate;"><span class="hero-badge" style="color:var(--gold);"><svg viewBox="0 0 24 24" width="30" height="30" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="1.8"/><ellipse cx="12" cy="12" rx="9.5" ry="4"/><ellipse cx="12" cy="12" rx="9.5" ry="4" transform="rotate(60 12 12)"/><ellipse cx="12" cy="12" rx="9.5" ry="4" transform="rotate(120 12 12)"/></svg></span></div>
+      <div data-hp="0.22" style="position:absolute;left:17%;bottom:24%;animation:floatY 6s ease-in-out .3s infinite alternate;"><span class="hero-badge" style="color:var(--teal);"><svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 4v15h15z"/><path d="M5 9.5h3M5 14h6"/></svg></span></div>
+      <div data-hp="0.42" style="position:absolute;right:16%;bottom:22%;animation:floatY 9s ease-in-out .9s infinite alternate;"><span class="hero-badge" style="color:var(--gold);"><svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5.5"/><ellipse cx="12" cy="12" rx="10" ry="3.4" transform="rotate(-20 12 12)"/></svg></span></div>
+      <div data-hp="0.6" style="position:absolute;left:44%;top:14%;width:44px;height:44px;border:1.5px solid var(--teal);border-radius:12px;opacity:.35;animation:spin 26s linear infinite;"></div>
 
       <div data-hero-content style="position:relative;z-index:3;text-align:center;padding:0 22px;max-width:1000px;will-change:transform,opacity;">
         <p class="mono" style="font-size:12px;letter-spacing:.24em;text-transform:uppercase;color:var(--teal-ink);margin-bottom:22px;display:flex;gap:12px;justify-content:center;flex-wrap:wrap;align-items:center;">
           <span>EdTech · Қазақстан</span>
-          <span style="background:var(--gold-soft);color:var(--gold);border:1px solid rgba(198,146,30,.4);padding:3px 10px;border-radius:999px;letter-spacing:.08em;">🏆 концепт года</span>
+          <span style="display:inline-flex;align-items:center;gap:6px;background:var(--gold-soft);color:var(--gold);border:1px solid rgba(198,146,30,.4);padding:3px 11px;border-radius:999px;letter-spacing:.08em;"><svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M8 4h8v4.5a4 4 0 0 1-8 0z"/><path d="M8 5.5H5.2V7a3 3 0 0 0 2.9 3M16 5.5h2.8V7a3 3 0 0 1-2.9 3"/><path d="M12 12.5v3.5M9 20h6M10 20l.4-4h3.2l.4 4"/></svg>концепт года</span>
         </p>
         <h1 class="disp" style="font-weight:700;font-size:clamp(34px,7.4vw,76px);line-height:1.02;letter-spacing:-.03em;color:var(--ink);text-wrap:balance;">
           <span style="display:block;overflow:hidden;"><span data-hl style="display:inline-block;transform:translateY(120%);">Одна среда:</span></span>
@@ -210,16 +210,20 @@
       <!-- BEFORE -->
       <div style="position:absolute;inset:0;background:#e7ebeb;display:flex;align-items:center;justify-content:center;padding:24px;">
         <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:10px;width:min(560px,86%);opacity:.9;">
-          <div class="ba-tab">🎬 видео урока</div><div class="ba-tab">📄 PDF-конспект</div><div class="ba-tab">📓 бумажная тетрадь</div>
-          <div class="ba-tab">💬 чат с учителем</div><div class="ba-tab">🔎 «фотосинтез» в поиске</div><div class="ba-tab">📊 отдельный тест</div>
+          <div class="ba-tab"><span class="ba-ic"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="6" width="12" height="12" rx="2.5"/><path d="M15 10l6-3v10l-6-3z"/></svg></span>видео урока</div>
+          <div class="ba-tab"><span class="ba-ic"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M6.5 3h7l4.5 4.5V21h-11z"/><path d="M13 3v5h5"/><path d="M9 12.5h6M9 16h6"/></svg></span>PDF-конспект</div>
+          <div class="ba-tab"><span class="ba-ic"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="3" width="14" height="18" rx="2"/><path d="M9 3v18"/><path d="M12 8h4M12 12h4"/></svg></span>бумажная тетрадь</div>
+          <div class="ba-tab"><span class="ba-ic"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 5h15a1 1 0 0 1 1 1v9a1 1 0 0 1-1 1H9l-4 4v-4H4.5a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1z"/><path d="M8 9.5h8M8 12.5h5"/></svg></span>чат с учителем</div>
+          <div class="ba-tab"><span class="ba-ic"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="10.5" cy="10.5" r="6"/><path d="M15 15l5 5"/></svg></span>«фотосинтез» в поиске</div>
+          <div class="ba-tab"><span class="ba-ic"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20h16"/><path d="M7 20v-6M12 20V8M17 20v-9"/></svg></span>отдельный тест</div>
         </div>
         <span class="mono" style="position:absolute;left:18px;top:16px;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#6a7c7c;background:#fff;padding:5px 11px;border-radius:999px;">Сейчас</span>
       </div>
       <!-- AFTER -->
       <div data-ba-after style="position:absolute;inset:0;background:var(--grad);display:flex;align-items:center;justify-content:center;padding:24px;clip-path:inset(0 36% 0 0);">
         <div style="text-align:center;color:#fff;">
-          <div style="font-size:64px;line-height:1;filter:drop-shadow(0 12px 30px rgba(0,0,0,.3));">🧬</div>
-          <div class="disp" style="font-weight:600;font-size:22px;margin-top:14px;">Одна живая 3D-сцена</div>
+          <div style="width:76px;height:76px;margin:0 auto;color:#fff;filter:drop-shadow(0 12px 30px rgba(0,0,0,.3));"><svg viewBox="0 0 24 24" width="76" height="76" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3 20 7.5v9L12 21 4 16.5v-9z"/><path d="M4 7.5 12 12l8-4.5"/><path d="M12 12v9"/></svg></div>
+          <div class="disp" style="font-weight:600;font-size:22px;margin-top:16px;">Одна живая 3D-сцена</div>
           <div style="font-size:13px;opacity:.9;margin-top:6px;max-width:34ch;">Класс → дом → учитель. Тот же движок, офлайн, с AI-тьютором рядом.</div>
         </div>
         <span class="mono" style="position:absolute;right:18px;top:16px;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#fff;background:rgba(255,255,255,.18);border:1px solid rgba(255,255,255,.3);padding:5px 11px;border-radius:999px;">Orta</span>
@@ -257,7 +261,11 @@
           <h3 class="disp" style="font-weight:600;font-size:clamp(22px,2.8vw,32px);letter-spacing:-.02em;margin:18px 0 12px;">Урок не заканчивается со звонком</h3>
           <p style="color:var(--ink-soft);line-height:1.6;">Учитель одним тапом отправляет домой <b style="color:var(--ink)">точное состояние</b> 3D-сцены с панели. Вечером ученик в ауле открывает офлайн не видео, а ту же живую симуляцию на общем рендерере — phygital-петля, которой нет ни у Bilimland, ни у Daryn.online.</p>
         </div>
-        <div style="background:var(--inset);border-radius:16px;display:flex;align-items:center;justify-content:center;font-size:78px;">🏫→📱</div>
+        <div style="background:var(--inset);border-radius:16px;display:flex;align-items:center;justify-content:center;gap:14px;color:var(--teal);">
+          <svg viewBox="0 0 24 24" width="60" height="60" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="12" rx="2"/><path d="M8 20h8"/><path d="M12 16v4"/><path d="M6.5 11 9.5 8l2.5 2.5 3-3.2"/></svg>
+          <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" style="color:var(--gold);"><path d="M4 12h15"/><path d="M13 6l6 6-6 6"/></svg>
+          <svg viewBox="0 0 24 24" width="48" height="48" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="7" y="2.5" width="10" height="19" rx="2.6"/><path d="M10.5 18.5h3"/></svg>
+        </div>
       </article>
       <article data-card style="position:sticky;top:128px;background:var(--surface);border:1px solid var(--line);border-radius:24px;padding:38px;box-shadow:0 30px 70px -46px rgba(13,32,36,.5);display:grid;grid-template-columns:1.15fr .85fr;gap:30px;will-change:transform;">
         <div>
@@ -265,7 +273,10 @@
           <h3 class="disp" style="font-weight:600;font-size:clamp(22px,2.8vw,32px);letter-spacing:-.02em;margin:18px 0 12px;">AI-тьютор с памятью через оба экрана</h3>
           <p style="color:var(--ink-soft);line-height:1.6;">Помнит сегодняшний урок, ведёт по Сократу и <b style="color:var(--ink)">цитирует конкретную сцену</b> вместо готового ответа. Работает офлайн на казахском и не выпускает данные учеников за пределы РК — персонализация 1:1 без внешних API.</p>
         </div>
-        <div style="background:var(--inset);border-radius:16px;display:flex;align-items:center;justify-content:center;font-size:78px;">🤖🇰🇿</div>
+        <div style="background:var(--inset);border-radius:16px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px;color:var(--teal);">
+          <svg viewBox="0 0 24 24" width="72" height="72" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3 20 6v5c0 5-3.4 8-8 10-4.6-2-8-5-8-10V6z"/><path d="M9 12l2 2 4-4"/></svg>
+          <span class="mono" style="font-size:12px;letter-spacing:.18em;color:var(--teal-ink);background:var(--teal-soft);padding:4px 12px;border-radius:999px;">ДАННЫЕ В РК · KK</span>
+        </div>
       </article>
       <article data-card style="position:sticky;top:146px;background:var(--surface);border:1px solid var(--line);border-radius:24px;padding:38px;box-shadow:0 30px 70px -46px rgba(13,32,36,.5);display:grid;grid-template-columns:1.15fr .85fr;gap:30px;will-change:transform;">
         <div>
@@ -273,7 +284,9 @@
           <h3 class="disp" style="font-weight:600;font-size:clamp(22px,2.8vw,32px);letter-spacing:-.02em;margin:18px 0 12px;">«Дельта ЕНТ» — эффект цифрой</h3>
           <p style="color:var(--ink-soft);line-height:1.6;">Baseline до обучения, ре-тесты, <b style="color:var(--ink)">когортный прирост балла ЕНТ с 95% ДИ</b> на панели директора и региональная тепловая карта на дашборде Минпросвещения — прямой ответ на «как измеряете эффективность».</p>
         </div>
-        <div style="background:var(--inset);border-radius:16px;display:flex;align-items:center;justify-content:center;font-size:78px;">📈</div>
+        <div style="background:var(--inset);border-radius:16px;display:flex;align-items:center;justify-content:center;color:var(--teal);">
+          <svg viewBox="0 0 24 24" width="82" height="82" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19h16"/><path d="M4 15l4.5-4.5 3 2 5.5-6"/><path d="M14 6.5h3v3"/></svg>
+        </div>
       </article>
     </div>
   </section>
@@ -430,7 +443,9 @@
 </div>
 
 <style>
-  .ba-tab{background:#fff;border:1px solid #d3dede;border-radius:10px;padding:14px 10px;font-size:12px;color:#4a5c5c;text-align:center;box-shadow:0 6px 16px -12px rgba(0,0,0,.3);}
+  .hero-badge{display:flex;align-items:center;justify-content:center;width:62px;height:62px;border-radius:18px;background:var(--surface);border:1px solid var(--line);box-shadow:0 22px 44px -26px rgba(13,32,36,.55);}
+  .ba-tab{background:#fff;border:1px solid #d3dede;border-radius:12px;padding:14px 8px;font-size:11.5px;color:#4a5c5c;text-align:center;box-shadow:0 6px 16px -12px rgba(0,0,0,.3);display:flex;flex-direction:column;align-items:center;gap:9px;}
+  .ba-ic{width:22px;height:22px;color:#5a8086;}
   .stat-tile{background:var(--surface);border:1px solid var(--line);border-radius:18px;padding:22px 20px;box-shadow:0 24px 60px -50px rgba(13,32,36,.5);}
   .stat-num{font-weight:700;font-size:clamp(30px,4vw,44px);color:var(--teal-ink);letter-spacing:-.02em;line-height:1;}
   .stat-cap{font-size:12.5px;color:var(--ink-soft);margin-top:10px;line-height:1.4;}
@@ -456,6 +471,37 @@
   var smooth=function(t){return t*t*(3-2*t);};
   var q=function(s,r){return (r||document).querySelector(s);};
   var qa=function(s,r){return Array.prototype.slice.call((r||document).querySelectorAll(s));};
+
+  var ICONS={
+    board:'<rect x="3" y="4" width="18" height="12" rx="2"/><path d="M8 20h8"/><path d="M12 16v4"/><path d="M6.5 11 9.5 8l2.5 2.5 3-3.2"/>',
+    send:'<path d="M21 4 3 11l6 2.5L11.5 20 15 13z"/><path d="M9 13.5 21 4"/>',
+    phone:'<rect x="7" y="2.5" width="10" height="19" rx="2.6"/><path d="M10.5 18.5h3"/>',
+    puzzle:'<path d="M10 4.5a1.5 1.5 0 0 1 3 0c0 .8.6 1.5 1.4 1.5H16a1 1 0 0 1 1 1v1.6c0 .8.7 1.4 1.5 1.4a1.5 1.5 0 0 1 0 3c-.8 0-1.5.6-1.5 1.4V17a1 1 0 0 1-1 1h-1.6c-.8 0-1.4.6-1.4 1.4a1.5 1.5 0 0 1-3 0c0-.8-.6-1.4-1.4-1.4H7a1 1 0 0 1-1-1v-1.6c0-.8-.7-1.4-1.5-1.4a1.5 1.5 0 0 1 0-3c.8 0 1.5-.6 1.5-1.4V7.5a1 1 0 0 1 1-1h1.6c.8 0 1.4-.7 1.4-1.5z"/>',
+    heatmap:'<rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M3 15h18M9 3v18M15 3v18"/>',
+    loop:'<path d="M4 12a8 8 0 0 1 13.7-5.6L20 8"/><path d="M20 4v4h-4"/><path d="M20 12a8 8 0 0 1-13.7 5.6L4 16"/><path d="M4 20v-4h4"/>',
+    chip:'<rect x="6.5" y="6.5" width="11" height="11" rx="2.5"/><circle cx="12" cy="12" r="2.4"/><path d="M9.5 3v3.5M14.5 3v3.5M9.5 17.5V21M14.5 17.5V21M3 9.5h3.5M3 14.5h3.5M17.5 9.5H21M17.5 14.5H21"/>',
+    books:'<path d="M4 5.5A1.5 1.5 0 0 1 5.5 4H10v16H5.5A1.5 1.5 0 0 0 4 21.5z"/><path d="M20 5.5A1.5 1.5 0 0 0 18.5 4H14v16h4.5A1.5 1.5 0 0 1 20 21.5z"/><path d="M10.2 7.5h3.6M10.2 11h3.6"/>',
+    vr:'<rect x="2.5" y="8" width="19" height="8.5" rx="3"/><path d="M9.5 16.5c.3-1.3 1.2-2 2.5-2s2.2.7 2.5 2"/><path d="M6.5 8V7.2A3.2 3.2 0 0 1 9.7 4h4.6a3.2 3.2 0 0 1 3.2 3.2V8"/>',
+    idcard:'<rect x="3" y="5" width="18" height="14" rx="2.5"/><circle cx="8.5" cy="11" r="2.3"/><path d="M13 9.5h5M13 12.5h5M5.5 15.8c.5-1.3 1.5-2 3-2s2.5.7 3 2"/>',
+    trophy:'<path d="M8 4h8v4.5a4 4 0 0 1-8 0z"/><path d="M8 5.5H5.2V7a3 3 0 0 0 2.9 3M16 5.5h2.8V7a3 3 0 0 1-2.9 3"/><path d="M12 12.5v3.5M9 20h6M10 20l.4-4h3.2l.4 4"/>',
+    flask:'<path d="M9.5 3h5M10.5 3v6L5.7 16.8A2 2 0 0 0 7.4 20h9.2a2 2 0 0 0 1.7-3.2L13.5 9V3"/><path d="M8 14.5h8"/>',
+    clipboard:'<rect x="5" y="4.5" width="14" height="16.5" rx="2"/><rect x="9" y="3" width="6" height="3.4" rx="1"/><path d="M8.5 11h7M8.5 14.5h4.5"/>',
+    medal:'<circle cx="12" cy="14.5" r="5"/><path d="M9 9.5 7 3h3M15 9.5 17 3h-3M10.5 3h3"/><path d="M12 12.7v0"/>',
+    doc:'<path d="M6.5 3h7l4.5 4.5V21h-11z"/><path d="M13 3v5h5"/><path d="M9 12.5h6M9 16h6"/>',
+    compass:'<circle cx="12" cy="12" r="9"/><path d="M15.5 8.5 13 13l-4.5 2.5L11 11z"/>',
+    video:'<rect x="3" y="6" width="12" height="12" rx="2.5"/><path d="M15 10l6-3v10l-6-3z"/>',
+    notebook:'<rect x="5" y="3" width="14" height="18" rx="2"/><path d="M9 3v18"/><path d="M12 8h4M12 12h4"/>',
+    chat:'<path d="M4.5 5h15a1 1 0 0 1 1 1v9a1 1 0 0 1-1 1H9l-4 4v-4H4.5a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1z"/><path d="M8 9.5h8M8 12.5h5"/>',
+    search:'<circle cx="10.5" cy="10.5" r="6"/><path d="M15 15l5 5"/>',
+    bars:'<path d="M4 20h16"/><path d="M7 20v-6M12 20V8M17 20v-9"/>',
+    cube:'<path d="M12 3 20 7.5v9L12 21 4 16.5v-9z"/><path d="M4 7.5 12 12l8-4.5"/><path d="M12 12v9"/>',
+    lineup:'<path d="M4 19h16"/><path d="M4 15l4.5-4.5 3 2 5.5-6"/><path d="M14 6.5h3v3"/>',
+    setsquare:'<path d="M5 4v15h15z"/><path d="M5 9.5h3M5 14h6"/>',
+    atom:'<circle cx="12" cy="12" r="1.8"/><ellipse cx="12" cy="12" rx="9.5" ry="4"/><ellipse cx="12" cy="12" rx="9.5" ry="4" transform="rotate(60 12 12)"/><ellipse cx="12" cy="12" rx="9.5" ry="4" transform="rotate(120 12 12)"/>',
+    planet:'<circle cx="12" cy="12" r="5.5"/><ellipse cx="12" cy="12" rx="10" ry="3.4" transform="rotate(-20 12 12)"/>',
+    shield:'<path d="M12 3 20 6v5c0 5-3.4 8-8 10-4.6-2-8-5-8-10V6z"/><path d="M9 12l2 2 4-4"/>'
+  };
+  function svgIcon(name){ return '<svg viewBox="0 0 24 24" width="100%" height="100%" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">'+(ICONS[name]||'')+'</svg>'; }
 
   function App(){ this.e={}; this.init(); }
 
@@ -509,11 +555,11 @@
   /* ---------- builders ---------- */
   App.prototype.buildJourney=function(){
     var steps=[
-      {n:'01',ic:'🏫',t:'Класс · панель',d:'Учитель крутит живую 3D-сцену на интерактивной доске.',tag:'наведение'},
-      {n:'02',ic:'📤',t:'Отправить домой',d:'Один тап замораживает точное состояние сцены и шлёт его ученику.',tag:'передача'},
-      {n:'03',ic:'📱',t:'Дом · телефон',d:'Та же живая симуляция офлайн + AI-тьютор помнит сегодняшний урок.',tag:'офлайн'},
-      {n:'04',ic:'🧩',t:'Точка застревания',d:'Ответы и ошибки собираются автоматически, без ручной проверки.',tag:'сбор'},
-      {n:'05',ic:'📊',t:'Учитель · тепловая карта',d:'К утру у учителя — карта мастерства класса и что «провалили».',tag:'петля замкнута'}
+      {n:'01',ic:'board',t:'Класс · панель',d:'Учитель крутит живую 3D-сцену на интерактивной доске.',tag:'наведение'},
+      {n:'02',ic:'send',t:'Отправить домой',d:'Один тап замораживает точное состояние сцены и шлёт его ученику.',tag:'передача'},
+      {n:'03',ic:'phone',t:'Дом · телефон',d:'Та же живая симуляция офлайн + AI-тьютор помнит сегодняшний урок.',tag:'офлайн'},
+      {n:'04',ic:'puzzle',t:'Точка застревания',d:'Ответы и ошибки собираются автоматически, без ручной проверки.',tag:'сбор'},
+      {n:'05',ic:'heatmap',t:'Учитель · тепловая карта',d:'К утру у учителя — карта мастерства класса и что «провалили».',tag:'петля замкнута'}
     ];
     var box=this.e.jslidesBox, nav=this.e.jnavbox;
     if(!box) return;
@@ -527,8 +573,8 @@
       ghost.style.cssText='position:absolute;right:4vw;top:12%;font-weight:800;font-size:min(38vw,460px);line-height:.8;color:rgba(255,255,255,.06);pointer-events:none;';
       ghost.textContent=s.n;
       var icon=document.createElement('div');
-      icon.style.cssText='position:absolute;left:50%;top:26%;transform:translateX(-50%);font-size:min(28vw,220px);filter:drop-shadow(0 30px 60px rgba(0,0,0,.35));';
-      icon.textContent=s.ic;
+      icon.style.cssText='position:absolute;left:50%;top:24%;transform:translateX(-50%);width:min(20vw,170px);height:min(20vw,170px);color:rgba(255,255,255,.92);filter:drop-shadow(0 30px 60px rgba(0,0,0,.35));';
+      icon.innerHTML=svgIcon(s.ic);
       var txt=document.createElement('div');
       txt.style.cssText='position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);text-align:center;width:min(680px,86vw);';
       txt.innerHTML='<div class="mono" style="font-size:11px;letter-spacing:.2em;text-transform:uppercase;opacity:.8;margin-bottom:12px;">Шаг '+s.n+' · '+s.tag+'</div>'+
@@ -558,12 +604,12 @@
 
   App.prototype.buildRing=function(){
     var items=[
-      {n:'01',ic:'🔁',t:'Phygital-петля класс ↔ дом',d:'Одна живая сцена и один прогресс следуют за учеником — онлайн и офлайн.'},
-      {n:'02',ic:'🧠',t:'Суверенный AI «Ustaz»',d:'Персонализация 1:1 на казахском, офлайн, без утечки ПДн за пределы РК.'},
-      {n:'03',ic:'📚',t:'Национальная ГОСО-библиотека',d:'960 сцен → темы ГОСО → банк ЕНТ + маркетплейс «Ustaz Store».'},
-      {n:'04',ic:'🥽',t:'VR/AR лаборатория «Ġylym Lab»',d:'23 реальные GLB-модели и 396 сцен «выпускаются в объём» через WebXR.'},
-      {n:'05',ic:'🪪',t:'Граф «Білім ID» и аналитика',d:'Пожизненный паспорт обучения + нацдашборд «Barlau» с тепловыми картами.'},
-      {n:'06',ic:'🎮',t:'Геймификация и инклюзия',d:'XP за mastery, межшкольные лиги, kk-first и «Село-first» доступ.'}
+      {n:'01',ic:'loop',t:'Phygital-петля класс ↔ дом',d:'Одна живая сцена и один прогресс следуют за учеником — онлайн и офлайн.'},
+      {n:'02',ic:'chip',t:'Суверенный AI «Ustaz»',d:'Персонализация 1:1 на казахском, офлайн, без утечки ПДн за пределы РК.'},
+      {n:'03',ic:'books',t:'Национальная ГОСО-библиотека',d:'960 сцен → темы ГОСО → банк ЕНТ + маркетплейс «Ustaz Store».'},
+      {n:'04',ic:'vr',t:'VR/AR лаборатория «Ġylym Lab»',d:'23 реальные GLB-модели и 396 сцен «выпускаются в объём» через WebXR.'},
+      {n:'05',ic:'idcard',t:'Граф «Білім ID» и аналитика',d:'Пожизненный паспорт обучения + нацдашборд «Barlau» с тепловыми картами.'},
+      {n:'06',ic:'trophy',t:'Геймификация и инклюзия',d:'XP за mastery, межшкольные лиги, kk-first и «Село-first» доступ.'}
     ];
     var ring=this.e.tring; if(!ring) return;
     this._tcards=[];
@@ -571,7 +617,7 @@
       var it=items[i];
       var c=document.createElement('div');
       c.style.cssText='position:absolute;left:50%;top:50%;width:min(420px,80vw);transform:translate(-50%,-50%);background:var(--surface);border:1px solid var(--line);border-radius:22px;padding:34px;box-shadow:0 40px 90px -50px rgba(13,32,36,.6);backface-visibility:hidden;will-change:transform,opacity,filter;';
-      c.innerHTML='<div style="font-size:52px;margin-bottom:14px;">'+it.ic+'</div>'+
+      c.innerHTML='<div style="width:46px;height:46px;color:var(--teal);margin-bottom:16px;">'+svgIcon(it.ic)+'</div>'+
         '<span class="mono" style="font-size:11px;letter-spacing:.12em;color:var(--teal-ink);">Опора '+it.n+'</span>'+
         '<h3 class="disp" style="font-weight:600;font-size:24px;letter-spacing:-.02em;margin:8px 0 12px;">'+it.t+'</h3>'+
         '<p style="font-size:14px;color:var(--ink-soft);line-height:1.55;">'+it.d+'</p>';
@@ -599,11 +645,11 @@
 
   App.prototype.buildConverge=function(){
     var docs=[
-      {ic:'🧪',t:'Анализ сцены',cx:-32,cy:-18,cz:-400,rot:-12},
-      {ic:'📝',t:'Мок-тест ЕНТ',cx:30,cy:-24,cz:-900,rot:10},
-      {ic:'🏅',t:'Портфолио',cx:-36,cy:20,cz:-1500,rot:-8},
-      {ic:'📋',t:'СОР / СОЧ',cx:34,cy:22,cz:-2100,rot:14},
-      {ic:'🧭',t:'Граф компетенций',cx:0,cy:-30,cz:-2700,rot:-6}
+      {ic:'flask',t:'Анализ сцены',cx:-32,cy:-18,cz:-400,rot:-12},
+      {ic:'clipboard',t:'Мок-тест ЕНТ',cx:30,cy:-24,cz:-900,rot:10},
+      {ic:'medal',t:'Портфолио',cx:-36,cy:20,cz:-1500,rot:-8},
+      {ic:'doc',t:'СОР / СОЧ',cx:34,cy:22,cz:-2100,rot:14},
+      {ic:'compass',t:'Граф компетенций',cx:0,cy:-30,cz:-2700,rot:-6}
     ];
     var scene=this.e.corscene; if(!scene) return;
     this._cdocs=[];
@@ -611,7 +657,7 @@
       var d=docs[i];
       var el=document.createElement('div');
       el.style.cssText='position:absolute;left:50%;top:50%;width:180px;transform:translate(-50%,-50%);background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:18px;box-shadow:0 30px 70px -46px rgba(13,32,36,.6);text-align:center;will-change:transform,opacity,filter;';
-      el.innerHTML='<div style="font-size:34px;">'+d.ic+'</div><div class="mono" style="font-size:12px;color:var(--ink-soft);margin-top:8px;">'+d.t+'</div>';
+      el.innerHTML='<div style="width:30px;height:30px;margin:0 auto;color:var(--teal);">'+svgIcon(d.ic)+'</div><div class="mono" style="font-size:12px;color:var(--ink-soft);margin-top:8px;">'+d.t+'</div>';
       scene.appendChild(el);
       this._cdocs.push({el:el,i:i,cx:d.cx,cy:d.cy,cz:d.cz,rot:d.rot});
     }
